@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3
       
       - name: executando docker
-        run: docker run docker/whalesay cowsay
+        run: docker run docker/whalesay cowsay Turma devops só tem fera
         
       - name: Run a multi-line script
         run:
